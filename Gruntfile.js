@@ -1,6 +1,6 @@
-"use strict";
-module.exports = function(grunt) {
 
+module.exports = function(grunt) {
+"use strict";
 
   // Project configuration.
   grunt.initConfig({
@@ -51,7 +51,28 @@ module.exports = function(grunt) {
 		pivotal: {
 			src: "src/**/*.js",
 			options: {
-				specs: "spec/*Spec.js"
+				specs: "test/_*.js",
+				template : require("grunt-template-jasmine-istanbul"),
+				templateOptions: {
+					coverage: "reports/coverage.json",
+					report: [
+						{
+							type: "html",
+							options: {
+								dir: "reports/html"
+							}
+						},
+						{
+							type: "lcov",
+							options: {
+								dir: "reports/lcov"
+							}
+						},
+					]
+				},
+				vendor: [
+					"libs/jQuery/jquery-1.11.0.min.js"
+				]
 			}
 		}
 	},
@@ -63,7 +84,7 @@ module.exports = function(grunt) {
 			force: true
 		},
 		main_target: {
-			src: "build/report/lcov/lcov.info"
+			src: "reports/lcov/lcov.info"
 		}
 	},
     jshint: {
