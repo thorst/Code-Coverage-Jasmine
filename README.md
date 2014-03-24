@@ -15,7 +15,7 @@ http://sandiegojs.org/blog/2013/03/10/client-side-code-coverage/
 
 svg badges
 
-[![Build Status](https://travis-ci.org/thorst/CCode-Coverage-Jasmine.svg?branch=master)](https://travis-ci.org/thorst/CCode-Coverage-Jasmine)
-[![Dependency Status](https://david-dm.org/thorst/CCode-Coverage-Jasmine.svg?theme=shields.io)](https://david-dm.org/thorst/CCode-Coverage-Jasmine)
-[![devDependency Status](https://david-dm.org/thorst/CCode-Coverage-Jasmine/dev-status.svg?theme=shields.io)](https://david-dm.org/thorst/CCode-Coverage-Jasmine#info=devDependencies)
-[![Coverage Status](http://img.shields.io/coveralls/thorst/CCode-Coverage-Jasmine.svg)](https://coveralls.io/r/thorst/CCode-Coverage-Jasmine?branch=master)
+[![Build Status](https://travis-ci.org/thorst/Code-Coverage-Jasmine.svg?branch=master)](https://travis-ci.org/thorst/Code-Coverage-Jasmine)
+[![Dependency Status](https://david-dm.org/thorst/Code-Coverage-Jasmine.svg?theme=shields.io)](https://david-dm.org/thorst/Code-Coverage-Jasmine)
+[![devDependency Status](https://david-dm.org/thorst/Code-Coverage-Jasmine/dev-status.svg?theme=shields.io)](https://david-dm.org/thorst/Code-Coverage-Jasmine#info=devDependencies)
+[![Coverage Status](http://img.shields.io/coveralls/thorst/Code-Coverage-Jasmine.svg)](https://coveralls.io/r/thorst/Code-Coverage-Jasmine?branch=master)
